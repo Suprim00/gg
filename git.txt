@@ -19,7 +19,7 @@ working directory |  staging area |  git directory repository
 initialize empty git repository
 4. git status
 view the status of git workflow
-5. git add --a          git add filename //adds specific files
+5. git add --a  git add .        git add filename //adds specific files
 add all files to staging 
 6. git commit -m "Your Message"
 commits all the staged files
@@ -54,4 +54,26 @@ shows log for x days/ weeks /months/years
 amend previous commit
 23. git restore --staged filename
 unstage a file
-24.
+24. git checkout -- filename.txt
+Reverts the file to the previous git commit only for the file "filename.txt"
+26. git checkout -f 
+Reverts every changes to the previous commit
+27. git remote add origin git@github.com:suprimkoirala/github_repo_name
+--> add url as origin as a remote
+28.git remote 
+shows the remote where we are at currently
+29. git remote -v 
+shows the push and pull repo link
+30. git push -u origin master
+pushes the updates on the origin repo
+31. git config --global alias.st status
+aliases git st as git status
+32. git config --global alias.unstage 'restore --staged --'
+aliases unstage with restore... 
+33. git checkout -b develop
+makes a new branch develop and switches to it
+34. git checkout master
+switches branch to master 
+35. git branch
+shows branches 
+36.   
