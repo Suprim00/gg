@@ -1,0 +1,56 @@
+1. git config --global user.name "Your_name"
+adds username to the git config
+2. git config --global user.email "email@email.com"
+adds user email
+working directory |  staging area |  git directory repository
+|
+|<------<---------<--------checkout the project------|
+|
+|
+|----stage files-->---->| 
+|                       | 
+|                       |
+|
+|                       |----------commit-------------->
+|
+|
+-----------------------------------------------------------
+3.git init
+initialize empty git repository
+4. git status
+view the status of git workflow
+5. git add --a          git add filename //adds specific files
+add all files to staging 
+6. git commit -m "Your Message"
+commits all the staged files
+7. git log
+view the log of commits
+8. git clone link
+clones into new directory makes inside the current directory
+9. Make a directory named .gitignore and add filenames and directories to ignore the files from tracking and pushing
+10. git diff 
+Compares working directory with staging area
+11. git diff --staged
+Compares staging area with previous commit
+12. git commit -a -m "Comment"
+skips the staging area ->direclty commits all the staged files(doesnt commit untracked files)
+13. git rm filename.exe 
+removes file and stages the change
+14. git mv filename.exe renamed.exe
+renames filename with renamed 
+15. If we modify the .gitignore file and add file name Suprim.txt on it so that it is ignored. Even though it is ignored, changes in that file will be shown as modified. So we need to run the below command so that the file wont be shown as  modified in the working tree when we use git status.:
+16. git rm --cached filename
+Untracks the file with filename
+17. git log -p     replace p with integer to view integral number of commits
+view the git log with differences too
+18. git log --stat   //git log --pretty= oneline  (shows in 1 line)
+shows git log in short
+19.git log --pretty=short   (--pretty = long)
+view log in short
+20. git log --since= x.days
+shows log for x days/ weeks /months/years
+21. Use git asm for documentation
+22.git commit --amend
+amend previous commit
+23. git restore --staged filename
+unstage a file
