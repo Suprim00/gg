@@ -76,4 +76,20 @@ makes a new branch develop and switches to it
 switches branch to master 
 35. git branch
 shows branches 
-36.   
+36. git merge branch_1  // when in branch master  
+merges branch_1 to maste
+37. git branch -v
+last commit of every branch
+38. git branch --merged
+shows already merged branches
+39. git branch --no-merged
+shows unmerged branches
+40. git branch -d branch_name
+deletes branch branch_name gives error if the branch not merged. Using -D deletes forcefully
+42. git push origin branchname
+pushes branch name to remote repo   //make sure youre in the same branch
+43. git push localbranch:remote_branch
+pushes local branch as remote branch
+!!!Use same name for remote and local branch
+44. git push -d origin branchname 
+deletes branch "branchname" from remote repo
