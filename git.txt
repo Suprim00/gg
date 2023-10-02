@@ -54,3 +54,4 @@ shows log for x days/ weeks /months/years
 amend previous commit
 23. git restore --staged filename
 unstage a file
+24.
